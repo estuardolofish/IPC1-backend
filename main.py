@@ -9,6 +9,8 @@ from FacturaServicio import FacturaServicio
 from Receta import Receta
 import json
 
+# Haciendo pruebas de subida
+
 app = Flask(__name__)
 CORS(app)
 
