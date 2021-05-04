@@ -205,8 +205,6 @@ def mostrarMedicamento():
         Datos.append(objeto)
     return(jsonify(Datos))
 
-
-
     # para mostrar los datos de MEDICAMENTO
 @app.route('/MedicamentosTopReporte', methods = ['GET'])
 def mostrarMedicamentoTopReporte():
